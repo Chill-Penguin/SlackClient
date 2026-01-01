@@ -1,0 +1,4 @@
+[project]
+name = "slack-client-wrapper"
+version = "1.0.0"
+dependencies = [ "slack-sdk" ]
