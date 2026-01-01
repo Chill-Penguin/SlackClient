@@ -2,3 +2,9 @@
 name = "slack-client-wrapper"
 version = "1.0.0"
 dependencies = [ "slack-sdk" ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
