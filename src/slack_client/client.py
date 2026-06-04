@@ -1,6 +1,6 @@
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
-from src.slack_client.exceptions import SlackReadMessageError, SlackSendMessageError
+from exceptions import SlackReadMessageError, SlackSendMessageError
 
 
 class SlackClientWrapper:
